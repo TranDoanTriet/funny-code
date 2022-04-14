@@ -1,3 +1,73 @@
-.bc-yellow{
-    background: yellow;
+.container{
+    max-width: 1100px;
+    margin:0 auto;
+}
+header{
+    background: rgb(199, 168, 168);
+    padding: 20px;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo{
+            a{
+
+            }
+        }
+        nav{
+            >ul{
+                display: flex;
+                >li{
+                    position: relative;
+                    margin-left: 20px;
+                    background-color: red;
+                    &:hover{
+                        ul.dropdown{
+                            display: block;
+                        }
+                    }
+                    a{
+
+                    }
+                    ul.dropdown{
+                        background: #999;
+                        position: absolute;
+                        top:100%;
+                        left: 50%;
+                        transform: translate(-50%,20px);
+                        border: 2px solid black;
+                        padding: 10px 0;
+                        display: none;
+                        &::after{
+                            content: "";
+                            // background: red;
+                            position: absolute;
+                            bottom: 100%;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            border-top: 11px solid transparent;border-left: 11px solid transparent;border-right: 11px solid transparent;border-bottom: 11px solid black;
+                        }
+                        &::before{
+                            content: "";
+                            content: "";
+                            // background: red;
+                            position: absolute;
+                            bottom: 100%;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            border-top: 9px solid transparent;border-left: 9px solid transparent;border-right: 9px solid transparent;border-bottom: 9px solid #999;
+                            z-index: 1;
+                        }
+                        li{
+                            margin: 0 15px;
+                            a{
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }

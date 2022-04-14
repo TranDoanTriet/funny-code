@@ -5,25 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="scss/style.css">
-    <title>spotify -enjoy your music</title>
+    <link rel="stylesheet" href="scss/reset.css">
+    <title>dropdown</title>
 </head>
 
 <body>
-    <div class="item bc-yellow">
-        <img src="./image/durex.PNG" alt="">
-        <h2>best choice for men in bed</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptates alias ipsam dolores, praesentium
-            est, repellat vero perferendis cum quisquam, ad commodi soluta. Adipisci, earum doloremque! Quis doloribus
-            nam ducimus.</p>
-    </div>
-    <div class="item">
-        <img src="./image/durex.PNG" alt="">
-        <h2 class="red">best choice for men in bed</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptates alias ipsam dolores, praesentium
-            est, repellat vero perferendis cum quisquam, ad commodi soluta. Adipisci, earum doloremque! Quis doloribus
-            nam ducimus.</p>
-    </div>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="">logo</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">fruit</a></li>
+                    <li>
+                        <a href="">contact</a>
+                        <ul class="dropdown">
+                            <li><a href="">orange</a></li>
+                            <li><a href="">banana</a></li>
+                            <li><a href="">pineapple</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
 </body>
 
 </html>

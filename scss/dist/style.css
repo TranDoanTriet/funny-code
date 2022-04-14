@@ -1,0 +1,44 @@
+ul {
+  margin-left: 20px;
+}
+
+.bt3 {
+  width: 800px;
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.bt3 h2 {
+  color: wheat;
+  padding-bottom: 5px;
+  border-bottom: 1px solid white;
+}
+.bt3 .about {
+  margin: 10px;
+}
+.bt3 .about p {
+  color: white;
+  margin-top: 10px;
+  background-color: red;
+  font-size: 13px;
+}
+.bt3 .quicklink {
+  margin: 10px;
+}
+.bt3 .quicklink .flex {
+  display: flex;
+  justify-content: space-between;
+  background-color: green;
+}
+.bt3 .quicklink .flex ul {
+  background-color: pink;
+}
+.bt3 .quicklink .flex ul li {
+  background-color: red;
+  margin-top: 10px;
+  font-size: 13px;
+}
+.bt3 .quicklink .flex ul li a {
+  color: white;
+}
