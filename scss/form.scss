@@ -3,4 +3,60 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #333;
+}
+body,html,input,button{
+    font-family: 'Open Sans', sans-serif;
+}
+
+form{
+    width: 400px;
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+    h2{
+        text-align: center;
+        i{
+            margin-right: 10px;
+        }
+    }
+    .input-group{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        input{
+            padding: 8px 10px;
+            border-radius: 5px;
+            border: 1px solid rgba($color: #333, $alpha: 0.5);
+        }
+        label{
+            margin-bottom: 5px;
+        }
+    }
+    .gender{
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        .male{
+            margin-right: 10px;
+        }
+    }
+    .favorite-text{
+        margin: 10px 0;
+        font-weight: bold;
+    }
+    .favorite{
+        .checkbox-group{
+            margin-top: 5px;
+        }
+    }
+    button{
+        background: rgba($color: red, $alpha: 0.5);
+        width: 100%;
+        font-size: 16px;
+        padding: 10px 0px;
+        border-radius: 5px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
 }

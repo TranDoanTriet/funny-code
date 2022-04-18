@@ -8,11 +8,54 @@
     <link rel="stylesheet" href="scss/form.css">
     <link rel="stylesheet" href="scss/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
-    <h2>hello</h2>
+    <form action="">
+        <h2><i class="fa-solid fa-users"></i> registration</h2>
+        <div class="input-group">
+            <label for="">username</label>
+            <input type="text" name="" id="" placeholder="username">
+        </div>
+        <div class="input-group">
+            <label for="">email</label>
+            <input type="email" name="" id="" placeholder="email">
+        </div>
+        <div class="input-group">
+            <label for="">password</label>
+            <input type="password" name="" id="" placeholder="password">
+        </div>
+        <!-- radio: choose one of them -->
+        <div class="gender">
+            <div class="male">
+                <input type="radio" name="gender" id="">
+                <label for="">Male</label>
+            </div>
+            <div class="female">
+                <input type="radio" name="gender" id="">
+                <label for="">Female</label>
+            </div>
+        </div>
+        <div class="favorite-text">Favorite</div>
+        <div class="favorite">
+            <div class="checkbox-group">
+                <input type="checkbox" name="" id="playing-game">
+                <label for="playing-game">playing game</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" name="" id="shopping">
+                <label for="shopping">shopping</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" name="" id="walking">
+                <label for="walking">walking</label>
+            </div>
+        </div>
+        <button>Submit</button>
+    </form>
+
 </body>
 
 </html>
